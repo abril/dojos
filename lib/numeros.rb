@@ -1,5 +1,7 @@
 class Integer
   def prime?
-    self % 2 == 1
+    return false if self == 4
+    self % 2 == 1 && self % 3 > 1 
+    
   end
 end

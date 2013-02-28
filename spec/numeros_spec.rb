@@ -11,4 +11,12 @@ describe "Numero" do
   it "4 não deve ser primo" do
     4.should_not be_prime
   end
+
+  it "9 nao deve ser primo" do
+    9.should_not be_prime
+  end
+  
+  it "12 nao deve ser primo" do
+    12.should_not be_prime
+  end
 end

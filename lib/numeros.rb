@@ -1,7 +1,12 @@
 class Integer
   def prime?
- 
-    self % 2 == 1 && self % 3 >= 1
+    indivisivel_por(2) && indivisivel_por(3)
     
   end
+
+  private
+    def indivisivel_por(outro)
+      self % outro > 0
+    end
+
 end

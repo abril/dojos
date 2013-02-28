@@ -27,4 +27,8 @@ describe "Numero" do
   it "15 nao deve ser primo" do
     15.should_not be_prime
   end
+  
+  it "35 nao deve ser primo" do
+    35.should_not be_prime
+  end
 end

@@ -4,6 +4,11 @@ require "rspec"
 require "numeros"
 
 describe "Numero" do
+  
+  it "1 deve ser primo" do
+    1.should be_prime
+  end
+  
   it "5 deve ser primo" do
     5.should be_prime
   end
@@ -31,4 +36,9 @@ describe "Numero" do
   it "35 nao deve ser primo" do
     35.should_not be_prime
   end
+  
+  it "77 nao deve ser primo" do
+    77.should_not be_prime
+  end
+  
 end

@@ -1,5 +1,5 @@
 class Integer
   def prime?
-    true
+    self % 2 == 1
   end
 end

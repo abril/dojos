@@ -4,9 +4,11 @@ require "rspec"
 require "numeros"
 
 describe "Numero" do
-  [5].each do |numero_primo| 
-    it "#{numero_primo} deve ser primo" do
-      numero_primo.should be_prime
-    end
+  it "5 deve ser primo" do
+    5.should be_prime
+  end
+
+  it "4 não deve ser primo" do
+    4.should_not be_prime
   end
 end

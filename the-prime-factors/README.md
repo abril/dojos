@@ -5,10 +5,10 @@ Dado um número natural N, onde N > 0, calcular qual combinação de números pr
 
 Exemplos:
 
-  N =  9 => [3, 3]
-  N = 15 => [3, 5]
-  N = 17 => nil
-  N = 40 => [2, 2, 2, 5]
+    N =  9 => [3, 3]
+    N = 15 => [3, 5]
+    N = 17 => nil
+    N = 40 => [2, 2, 2, 5]
 
 Referência: [The Prime Factors Kata](http://butunclebob.com/ArticleS.UncleBob.ThePrimeFactorsKata)
 
